@@ -1,0 +1,231 @@
+{
+  "stats": {
+    "suites": 5,
+    "tests": 8,
+    "passes": 6,
+    "pending": 0,
+    "failures": 2,
+    "start": "2025-05-07T18:23:30.040Z",
+    "end": "2025-05-07T18:23:30.292Z",
+    "duration": 252
+  },
+  "tests": [
+    {
+      "title": "is a floating number",
+      "fullTitle": "index.js tot_temperature_in_fahrenheit is a floating number",
+      "file": "/Flatiron.Ubuntu/module1/js-expressions-lab-1/test/indexTest.js",
+      "duration": 1,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "is accurate with a tolerance of 0.2 degrees",
+      "fullTitle": "index.js tot_temperature_in_fahrenheit is accurate with a tolerance of 0.2 degrees",
+      "file": "/Flatiron.Ubuntu/module1/js-expressions-lab-1/test/indexTest.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "is a floating number",
+      "fullTitle": "index.js tot_temperature_in_celsius is a floating number",
+      "file": "/Flatiron.Ubuntu/module1/js-expressions-lab-1/test/indexTest.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "is accurate with a tolerance of 0.2 degrees",
+      "fullTitle": "index.js tot_temperature_in_celsius is accurate with a tolerance of 0.2 degrees",
+      "file": "/Flatiron.Ubuntu/module1/js-expressions-lab-1/test/indexTest.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "AssertionError: expected 672.8888888888889 to be close to 1188.4444444444443 +/- 0.2\n    at Context.<anonymous> (test/indexTest.js:45:54)\n    at process.processImmediate (node:internal/timers:485:21)",
+        "message": "expected 672.8888888888889 to be close to 1188.4444444444443 +/- 0.2",
+        "actual": 672.8888888888889,
+        "showDiff": false,
+        "operator": "strictEqual",
+        "multiple": [
+          {
+            "message": "expected 672.8888888888889 to be close to 1188.4444444444443 +/- 0.2",
+            "actual": 672.8888888888889,
+            "showDiff": false,
+            "operator": "strictEqual",
+            "multiple": "AssertionError: expected 672.8888888888889 to be close to 1188.4444444444443 +/- 0.2",
+            "name": "AssertionError",
+            "ok": false,
+            "stack": "AssertionError: expected 672.8888888888889 to be close to 1188.4444444444443 +/- 0.2\n    at Context.<anonymous> (test/indexTest.js:45:54)\n    at process.processImmediate (node:internal/timers:485:21)"
+          }
+        ]
+      }
+    },
+    {
+      "title": "is a floating number",
+      "fullTitle": "index.js avg_temperature_in_fahrenheit is a floating number",
+      "file": "/Flatiron.Ubuntu/module1/js-expressions-lab-1/test/indexTest.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "is accurate with a tolerance of 0.2 degrees",
+      "fullTitle": "index.js avg_temperature_in_fahrenheit is accurate with a tolerance of 0.2 degrees",
+      "file": "/Flatiron.Ubuntu/module1/js-expressions-lab-1/test/indexTest.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "is a floating number",
+      "fullTitle": "index.js avg_temperature_in_celsius is a floating number",
+      "file": "/Flatiron.Ubuntu/module1/js-expressions-lab-1/test/indexTest.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "is accurate with a tolerance of 0.2 degrees",
+      "fullTitle": "index.js avg_temperature_in_celsius is accurate with a tolerance of 0.2 degrees",
+      "file": "/Flatiron.Ubuntu/module1/js-expressions-lab-1/test/indexTest.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "AssertionError: expected 22.42962962962963 to be close to 39.614814814814814 +/- 0.2\n    at Context.<anonymous> (test/indexTest.js:71:54)\n    at process.processImmediate (node:internal/timers:485:21)",
+        "message": "expected 22.42962962962963 to be close to 39.614814814814814 +/- 0.2",
+        "actual": 22.42962962962963,
+        "showDiff": false,
+        "operator": "strictEqual",
+        "multiple": [
+          {
+            "message": "expected 22.42962962962963 to be close to 39.614814814814814 +/- 0.2",
+            "actual": 22.42962962962963,
+            "showDiff": false,
+            "operator": "strictEqual",
+            "multiple": "AssertionError: expected 22.42962962962963 to be close to 39.614814814814814 +/- 0.2",
+            "name": "AssertionError",
+            "ok": false,
+            "stack": "AssertionError: expected 22.42962962962963 to be close to 39.614814814814814 +/- 0.2\n    at Context.<anonymous> (test/indexTest.js:71:54)\n    at process.processImmediate (node:internal/timers:485:21)"
+          }
+        ]
+      }
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "is accurate with a tolerance of 0.2 degrees",
+      "fullTitle": "index.js tot_temperature_in_celsius is accurate with a tolerance of 0.2 degrees",
+      "file": "/Flatiron.Ubuntu/module1/js-expressions-lab-1/test/indexTest.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "AssertionError: expected 672.8888888888889 to be close to 1188.4444444444443 +/- 0.2\n    at Context.<anonymous> (test/indexTest.js:45:54)\n    at process.processImmediate (node:internal/timers:485:21)",
+        "message": "expected 672.8888888888889 to be close to 1188.4444444444443 +/- 0.2",
+        "actual": 672.8888888888889,
+        "showDiff": false,
+        "operator": "strictEqual",
+        "multiple": [
+          {
+            "message": "expected 672.8888888888889 to be close to 1188.4444444444443 +/- 0.2",
+            "actual": 672.8888888888889,
+            "showDiff": false,
+            "operator": "strictEqual",
+            "multiple": "AssertionError: expected 672.8888888888889 to be close to 1188.4444444444443 +/- 0.2",
+            "name": "AssertionError",
+            "ok": false,
+            "stack": "AssertionError: expected 672.8888888888889 to be close to 1188.4444444444443 +/- 0.2\n    at Context.<anonymous> (test/indexTest.js:45:54)\n    at process.processImmediate (node:internal/timers:485:21)"
+          }
+        ]
+      }
+    },
+    {
+      "title": "is accurate with a tolerance of 0.2 degrees",
+      "fullTitle": "index.js avg_temperature_in_celsius is accurate with a tolerance of 0.2 degrees",
+      "file": "/Flatiron.Ubuntu/module1/js-expressions-lab-1/test/indexTest.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "AssertionError: expected 22.42962962962963 to be close to 39.614814814814814 +/- 0.2\n    at Context.<anonymous> (test/indexTest.js:71:54)\n    at process.processImmediate (node:internal/timers:485:21)",
+        "message": "expected 22.42962962962963 to be close to 39.614814814814814 +/- 0.2",
+        "actual": 22.42962962962963,
+        "showDiff": false,
+        "operator": "strictEqual",
+        "multiple": [
+          {
+            "message": "expected 22.42962962962963 to be close to 39.614814814814814 +/- 0.2",
+            "actual": 22.42962962962963,
+            "showDiff": false,
+            "operator": "strictEqual",
+            "multiple": "AssertionError: expected 22.42962962962963 to be close to 39.614814814814814 +/- 0.2",
+            "name": "AssertionError",
+            "ok": false,
+            "stack": "AssertionError: expected 22.42962962962963 to be close to 39.614814814814814 +/- 0.2\n    at Context.<anonymous> (test/indexTest.js:71:54)\n    at process.processImmediate (node:internal/timers:485:21)"
+          }
+        ]
+      }
+    }
+  ],
+  "passes": [
+    {
+      "title": "is a floating number",
+      "fullTitle": "index.js tot_temperature_in_fahrenheit is a floating number",
+      "file": "/Flatiron.Ubuntu/module1/js-expressions-lab-1/test/indexTest.js",
+      "duration": 1,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "is accurate with a tolerance of 0.2 degrees",
+      "fullTitle": "index.js tot_temperature_in_fahrenheit is accurate with a tolerance of 0.2 degrees",
+      "file": "/Flatiron.Ubuntu/module1/js-expressions-lab-1/test/indexTest.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "is a floating number",
+      "fullTitle": "index.js tot_temperature_in_celsius is a floating number",
+      "file": "/Flatiron.Ubuntu/module1/js-expressions-lab-1/test/indexTest.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "is a floating number",
+      "fullTitle": "index.js avg_temperature_in_fahrenheit is a floating number",
+      "file": "/Flatiron.Ubuntu/module1/js-expressions-lab-1/test/indexTest.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "is accurate with a tolerance of 0.2 degrees",
+      "fullTitle": "index.js avg_temperature_in_fahrenheit is accurate with a tolerance of 0.2 degrees",
+      "file": "/Flatiron.Ubuntu/module1/js-expressions-lab-1/test/indexTest.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "is a floating number",
+      "fullTitle": "index.js avg_temperature_in_celsius is a floating number",
+      "file": "/Flatiron.Ubuntu/module1/js-expressions-lab-1/test/indexTest.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    }
+  ]
+}
